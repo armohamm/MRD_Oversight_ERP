@@ -1,0 +1,294 @@
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\Oversight.exe
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\Oversight.pdb
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\Oversight.xml
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\Microsoft.Office.Interop.PowerPoint.dll
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\Microsoft.Office.Interop.Word.dll
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\SplitButton.dll
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\office.dll
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\Microsoft.Office.Interop.Word.xml
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\Microsoft.Office.Interop.Excel.xml
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\bin\Release\office.xml
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\ResolveAssemblyReference.cache
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaBases.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarModelo.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaModelos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarUnidad.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.SobreOversight.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaProyectos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaInsumos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarPersona.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaPersonas.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaDirecciones.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarInsumoPreguntaReplicarUpdate.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarInsumoCompuesto.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaInsumosPreguntaTipoNuevoInsumo.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarProyectoCambiaIndirectosYUtilidad.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarBase.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaInsumosConPrecioDiferente.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaUnidades.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarProyectoPreguntaFechaTerminoPrevista.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarInsumo.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.Login.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.Resources.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarProyecto.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.vbproj.GenerateResource.Cache
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.exe.licenses
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.exe
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.xml
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.pdb
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarProveedor.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaProveedores.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaTarjetas.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarTarjeta.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarFacturaProveedor.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarLicencia.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.LicenciaValida.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaArchivosCerradosIncorrectamente.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.Mensajes.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaCategoriasInsumo.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarCategoriaInsumo.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.Opciones.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.MissionControl.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaTipoFacturas.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarTipoFactura.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarActivo.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaActivos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaTipoActivos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarTipoActivo.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarUsuario.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaPermisos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaUsuarios.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarPermiso.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaPagos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarPago.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarBanco.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarTipoPago.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarCuentaCompania.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaTipoPagos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaCuentasCompania.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaBancos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarIngreso.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarTipoIngreso.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaTipoIngresos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaIngresos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaFacturasProveedor.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarVale.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.AgregarDescuentoAFactura.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.BuscaVales.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.InventarioDeInsumos.resources
+C:\Users\NeMo\Documents\3. MRD\Oversight\Oversight\obj\Release\Oversight.Loader.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\Oversight.exe
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\Oversight.pdb
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\Oversight.xml
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\Microsoft.Office.Interop.PowerPoint.dll
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\Microsoft.Office.Interop.Word.dll
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\SplitButton.dll
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\office.dll
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\Microsoft.Office.Interop.Word.xml
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\Microsoft.Office.Interop.Excel.xml
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\office.xml
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\ResolveAssemblyReference.cache
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarInsumoCompuesto.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarNomina.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarCotizacionInsumo.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaBases.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaModelos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarUnidad.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarPersona.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarProveedor.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaProveedores.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarFacturaProveedor.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarLicencia.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaArchivosCerradosIncorrectamente.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaCategoriasInsumo.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarCategoriaInsumo.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaTipoFacturas.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarTipoFactura.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarActivo.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaActivos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaTipoActivos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarTipoActivo.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarUsuario.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaPermisos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaUsuarios.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarPermiso.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaPagos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarPago.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarBanco.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarTipoPago.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarCuentaCompania.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaTipoPagos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaCuentasCompania.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaBancos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarIngreso.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarTipoIngreso.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaTipoIngresos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaIngresos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaFacturasProveedor.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarVale.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarDescuentoAFacturaProveedor.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaVales.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarMensaje.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarRevision.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaRevisiones.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaFecha.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaRevisionesFacturasProveedor.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaCotizacionesInsumos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaNominas.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarFacturaCombustible.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaFacturasCombustible.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaEnDirectorio.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaEnDirectorioPreguntaNuevo.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaArchivosAbiertosRecientemente.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarModelo.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarGastoPorCaseta.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaGastosPorCasetas.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarPoliza.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaPolizas.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.Reportes.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.PreguntaRescate.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.SaldoEnCuentas.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.MissionControl.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.InventarioDeActivos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.Loader.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.Opciones.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.Mensajes.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.LicenciaValida.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.SobreOversight.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaProyectos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaInsumos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaPersonas.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaDirecciones.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarInsumoPreguntaReplicarUpdate.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaInsumosPreguntaTipoNuevoInsumo.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarProyectoCambiaIndirectosYUtilidad.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaTarjetas.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarBase.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.InventarioDeInsumos.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaInsumosConPrecioDiferente.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.BuscaUnidades.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarProyectoPreguntaFechaTerminoPrevista.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarTarjeta.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarInsumo.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.Login.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.Resources.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.AgregarProyecto.resources
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.vbproj.GenerateResource.Cache
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.exe.licenses
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.exe
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.xml
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.pdb
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\Oversight.exe.manifest
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\bin\Release\Oversight.application
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.exe.manifest
+C:\Users\NeMo\Documents\MRD\Oversight\Oversight\obj\Release\Oversight.application
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\ResolveAssemblyReference.cache
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarInsumoCompuesto.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarNomina.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarCotizacionInsumo.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaBases.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaModelos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarUnidad.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarPersona.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarProveedor.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaProveedores.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarFacturaProveedor.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarLicencia.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaArchivosCerradosIncorrectamente.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaCategoriasInsumo.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarCategoriaInsumo.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaTipoFacturas.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarTipoFactura.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarActivo.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaActivos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaTipoActivos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarTipoActivo.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarUsuario.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaPermisos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaUsuarios.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarPermiso.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaPagos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarPago.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarBanco.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarTipoPago.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarCuentaCompania.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaTipoPagos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaCuentasCompania.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaBancos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarIngreso.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarTipoIngreso.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaTipoIngresos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaIngresos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaFacturasProveedor.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarVale.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarDescuentoAFacturaProveedor.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaVales.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarMensaje.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarRevision.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaRevisiones.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaFecha.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaRevisionesFacturasProveedor.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaCotizacionesInsumos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaNominas.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarFacturaCombustible.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaFacturasCombustible.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaEnDirectorio.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaEnDirectorioPreguntaNuevo.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaArchivosAbiertosRecientemente.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarModelo.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarGastoPorCaseta.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaGastosPorCasetas.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarPoliza.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaPolizas.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.Reportes.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.PreguntaRescate.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.SaldoEnCuentas.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.MissionControl.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.InventarioDeActivos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.Loader.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.Opciones.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.Mensajes.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.LicenciaValida.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.SobreOversight.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaProyectos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaInsumos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaPersonas.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaDirecciones.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarInsumoPreguntaReplicarUpdate.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaInsumosPreguntaTipoNuevoInsumo.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarProyectoCambiaIndirectosYUtilidad.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaTarjetas.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarBase.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.InventarioDeInsumos.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaInsumosConPrecioDiferente.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.BuscaUnidades.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarProyectoPreguntaFechaTerminoPrevista.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarTarjeta.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarInsumo.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.Login.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.Resources.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.AgregarProyecto.resources
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.vbproj.GenerateResource.Cache
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.exe
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.xml
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.pdb
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\Oversight.exe.manifest
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\Oversight.application
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\Oversight.exe
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\Oversight.pdb
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\Oversight.xml
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\Microsoft.Office.Interop.PowerPoint.dll
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\Microsoft.Office.Interop.Word.dll
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\SplitButton.dll
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\office.dll
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\Microsoft.Office.Interop.Word.xml
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\Microsoft.Office.Interop.Excel.xml
+C:\Users\NeMo\Documents\Proyectos\Oversight\bin\Release\office.xml
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.exe.manifest
+C:\Users\NeMo\Documents\Proyectos\Oversight\obj\Release\Oversight.application

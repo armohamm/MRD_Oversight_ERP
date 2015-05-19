@@ -1,0 +1,1283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D99692B-B140-4C75-88FD-93441688A115}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Oversight.My.MyApplication</StartupObject>
+    <RootNamespace>Oversight</RootNamespace>
+    <AssemblyName>Oversight</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>thundera.ico</ApplicationIcon>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ManifestCertificateThumbprint>5C38B7C853480AD8ED76CFA0252B65C2D5A472AF</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Oversight_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>C:\Program Files\Oversight\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Oversight.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Oversight.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Interop.PowerPoint, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Interop.Word, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="MySql.Data, Version=6.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="SplitButton, Version=2.0.3.9876, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\SplitButton.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgregarInsumoCompuesto.Designer.vb">
+      <DependentUpon>AgregarInsumoCompuesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarInsumoCompuesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarNomina.Designer.vb">
+      <DependentUpon>AgregarNomina.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarNomina.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarCotizacionInsumo.Designer.vb">
+      <DependentUpon>AgregarCotizacionInsumo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarCotizacionInsumo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaBases.Designer.vb">
+      <DependentUpon>BuscaBases.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaBases.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaModelos.Designer.vb">
+      <DependentUpon>BuscaModelos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaModelos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarUnidad.Designer.vb">
+      <DependentUpon>AgregarUnidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarUnidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarPersona.Designer.vb">
+      <DependentUpon>AgregarPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarProveedor.Designer.vb">
+      <DependentUpon>AgregarProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaProveedores.Designer.vb">
+      <DependentUpon>BuscaProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarFacturaProveedor.Designer.vb">
+      <DependentUpon>AgregarFacturaProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarFacturaProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarLicencia.Designer.vb">
+      <DependentUpon>AgregarLicencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarLicencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaArchivosCerradosIncorrectamente.Designer.vb">
+      <DependentUpon>BuscaArchivosCerradosIncorrectamente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaArchivosCerradosIncorrectamente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaCategoriasInsumo.Designer.vb">
+      <DependentUpon>BuscaCategoriasInsumo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaCategoriasInsumo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarCategoriaInsumo.Designer.vb">
+      <DependentUpon>AgregarCategoriaInsumo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarCategoriaInsumo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaTipoFacturas.Designer.vb">
+      <DependentUpon>BuscaTipoFacturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaTipoFacturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarTipoFactura.Designer.vb">
+      <DependentUpon>AgregarTipoFactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarTipoFactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarActivo.Designer.vb">
+      <DependentUpon>AgregarActivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarActivo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaActivos.Designer.vb">
+      <DependentUpon>BuscaActivos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaActivos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaTipoActivos.Designer.vb">
+      <DependentUpon>BuscaTipoActivos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaTipoActivos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarTipoActivo.Designer.vb">
+      <DependentUpon>AgregarTipoActivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarTipoActivo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarUsuario.Designer.vb">
+      <DependentUpon>AgregarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaPermisos.Designer.vb">
+      <DependentUpon>BuscaPermisos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaPermisos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaUsuarios.Designer.vb">
+      <DependentUpon>BuscaUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarPermiso.Designer.vb">
+      <DependentUpon>AgregarPermiso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarPermiso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaPagos.Designer.vb">
+      <DependentUpon>BuscaPagos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaPagos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarPago.Designer.vb">
+      <DependentUpon>AgregarPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarBanco.Designer.vb">
+      <DependentUpon>AgregarBanco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarBanco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarTipoPago.Designer.vb">
+      <DependentUpon>AgregarTipoPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarTipoPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarCuentaCompania.Designer.vb">
+      <DependentUpon>AgregarCuentaCompania.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarCuentaCompania.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaTipoPagos.Designer.vb">
+      <DependentUpon>BuscaTipoPagos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaTipoPagos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaCuentasCompania.Designer.vb">
+      <DependentUpon>BuscaCuentasCompania.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaCuentasCompania.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaBancos.Designer.vb">
+      <DependentUpon>BuscaBancos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaBancos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarIngreso.Designer.vb">
+      <DependentUpon>AgregarIngreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarIngreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarTipoIngreso.Designer.vb">
+      <DependentUpon>AgregarTipoIngreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarTipoIngreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaTipoIngresos.Designer.vb">
+      <DependentUpon>BuscaTipoIngresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaTipoIngresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaIngresos.Designer.vb">
+      <DependentUpon>BuscaIngresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaIngresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaFacturasProveedor.Designer.vb">
+      <DependentUpon>BuscaFacturasProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaFacturasProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarVale.Designer.vb">
+      <DependentUpon>AgregarVale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarVale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarDescuentoAFacturaProveedor.Designer.vb">
+      <DependentUpon>AgregarDescuentoAFacturaProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarDescuentoAFacturaProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaVales.Designer.vb">
+      <DependentUpon>BuscaVales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaVales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarMensaje.Designer.vb">
+      <DependentUpon>AgregarMensaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarMensaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarRevision.Designer.vb">
+      <DependentUpon>AgregarRevision.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarRevision.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaRevisiones.Designer.vb">
+      <DependentUpon>BuscaRevisiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaRevisiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaFecha.Designer.vb">
+      <DependentUpon>BuscaFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaFecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaRevisionesFacturasProveedor.Designer.vb">
+      <DependentUpon>BuscaRevisionesFacturasProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaRevisionesFacturasProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaCotizacionesInsumos.Designer.vb">
+      <DependentUpon>BuscaCotizacionesInsumos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaCotizacionesInsumos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaNominas.Designer.vb">
+      <DependentUpon>BuscaNominas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaNominas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarFacturaCombustible.Designer.vb">
+      <DependentUpon>AgregarFacturaCombustible.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarFacturaCombustible.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaFacturasCombustible.Designer.vb">
+      <DependentUpon>BuscaFacturasCombustible.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaFacturasCombustible.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaEnDirectorio.Designer.vb">
+      <DependentUpon>BuscaEnDirectorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaEnDirectorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaEnDirectorioPreguntaNuevo.Designer.vb">
+      <DependentUpon>BuscaEnDirectorioPreguntaNuevo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaEnDirectorioPreguntaNuevo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaArchivosAbiertosRecientemente.Designer.vb">
+      <DependentUpon>BuscaArchivosAbiertosRecientemente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaArchivosAbiertosRecientemente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarModelo.Designer.vb">
+      <DependentUpon>AgregarModelo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarModelo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarGastoPorCaseta.Designer.vb">
+      <DependentUpon>AgregarGastoPorCaseta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarGastoPorCaseta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaGastosPorCasetas.Designer.vb">
+      <DependentUpon>BuscaGastosPorCasetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaGastosPorCasetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarPoliza.Designer.vb">
+      <DependentUpon>AgregarPoliza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarPoliza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaPolizas.Designer.vb">
+      <DependentUpon>BuscaPolizas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaPolizas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes.Designer.vb">
+      <DependentUpon>Reportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreguntaRescate.Designer.vb">
+      <DependentUpon>PreguntaRescate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntaRescate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaldoEnCuentas.Designer.vb">
+      <DependentUpon>SaldoEnCuentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SaldoEnCuentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MissionControl.Designer.vb">
+      <DependentUpon>MissionControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MissionControl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventarioDeActivos.Designer.vb">
+      <DependentUpon>InventarioDeActivos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InventarioDeActivos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loader.Designer.vb">
+      <DependentUpon>Loader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opciones.Designer.vb">
+      <DependentUpon>Opciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mensajes.Designer.vb">
+      <DependentUpon>Mensajes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mensajes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LicenciaValida.Designer.vb">
+      <DependentUpon>LicenciaValida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LicenciaValida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="SobreOversight.Designer.vb">
+      <DependentUpon>SobreOversight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SobreOversight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaProyectos.Designer.vb">
+      <DependentUpon>BuscaProyectos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaProyectos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaInsumos.Designer.vb">
+      <DependentUpon>BuscaInsumos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaInsumos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaPersonas.Designer.vb">
+      <DependentUpon>BuscaPersonas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaPersonas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaDirecciones.Designer.vb">
+      <DependentUpon>BuscaDirecciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaDirecciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarInsumoPreguntaReplicarUpdate.Designer.vb">
+      <DependentUpon>AgregarInsumoPreguntaReplicarUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarInsumoPreguntaReplicarUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaInsumosPreguntaTipoNuevoInsumo.Designer.vb">
+      <DependentUpon>BuscaInsumosPreguntaTipoNuevoInsumo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaInsumosPreguntaTipoNuevoInsumo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarProyectoCambiaIndirectosYUtilidad.Designer.vb">
+      <DependentUpon>AgregarProyectoCambiaIndirectosYUtilidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarProyectoCambiaIndirectosYUtilidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaTarjetas.Designer.vb">
+      <DependentUpon>BuscaTarjetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaTarjetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarBase.Designer.vb">
+      <DependentUpon>AgregarBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventarioDeInsumos.Designer.vb">
+      <DependentUpon>InventarioDeInsumos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InventarioDeInsumos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaInsumosConPrecioDiferente.Designer.vb">
+      <DependentUpon>BuscaInsumosConPrecioDiferente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaInsumosConPrecioDiferente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaUnidades.Designer.vb">
+      <DependentUpon>BuscaUnidades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaUnidades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarProyectoPreguntaFechaTerminoPrevista.Designer.vb">
+      <DependentUpon>AgregarProyectoPreguntaFechaTerminoPrevista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarProyectoPreguntaFechaTerminoPrevista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarTarjeta.Designer.vb">
+      <DependentUpon>AgregarTarjeta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarTarjeta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarInsumo.Designer.vb">
+      <DependentUpon>AgregarInsumo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarInsumo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="AgregarProyecto.Designer.vb">
+      <DependentUpon>AgregarProyecto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarProyecto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AgregarInsumoCompuesto.resx">
+      <DependentUpon>AgregarInsumoCompuesto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarNomina.resx">
+      <DependentUpon>AgregarNomina.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarCotizacionInsumo.resx">
+      <DependentUpon>AgregarCotizacionInsumo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaBases.resx">
+      <DependentUpon>BuscaBases.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaModelos.resx">
+      <DependentUpon>BuscaModelos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarUnidad.resx">
+      <DependentUpon>AgregarUnidad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarPersona.resx">
+      <DependentUpon>AgregarPersona.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarProveedor.resx">
+      <DependentUpon>AgregarProveedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaProveedores.resx">
+      <DependentUpon>BuscaProveedores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarFacturaProveedor.resx">
+      <DependentUpon>AgregarFacturaProveedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarLicencia.resx">
+      <DependentUpon>AgregarLicencia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaArchivosCerradosIncorrectamente.resx">
+      <DependentUpon>BuscaArchivosCerradosIncorrectamente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaCategoriasInsumo.resx">
+      <DependentUpon>BuscaCategoriasInsumo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarCategoriaInsumo.resx">
+      <DependentUpon>AgregarCategoriaInsumo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaTipoFacturas.resx">
+      <DependentUpon>BuscaTipoFacturas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarTipoFactura.resx">
+      <DependentUpon>AgregarTipoFactura.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarActivo.resx">
+      <DependentUpon>AgregarActivo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaActivos.resx">
+      <DependentUpon>BuscaActivos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaTipoActivos.resx">
+      <DependentUpon>BuscaTipoActivos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarTipoActivo.resx">
+      <DependentUpon>AgregarTipoActivo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarUsuario.resx">
+      <DependentUpon>AgregarUsuario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaPermisos.resx">
+      <DependentUpon>BuscaPermisos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaUsuarios.resx">
+      <DependentUpon>BuscaUsuarios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarPermiso.resx">
+      <DependentUpon>AgregarPermiso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaPagos.resx">
+      <DependentUpon>BuscaPagos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarPago.resx">
+      <DependentUpon>AgregarPago.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarBanco.resx">
+      <DependentUpon>AgregarBanco.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarTipoPago.resx">
+      <DependentUpon>AgregarTipoPago.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarCuentaCompania.resx">
+      <DependentUpon>AgregarCuentaCompania.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaTipoPagos.resx">
+      <DependentUpon>BuscaTipoPagos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaCuentasCompania.resx">
+      <DependentUpon>BuscaCuentasCompania.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaBancos.resx">
+      <DependentUpon>BuscaBancos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarIngreso.resx">
+      <DependentUpon>AgregarIngreso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarTipoIngreso.resx">
+      <DependentUpon>AgregarTipoIngreso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaTipoIngresos.resx">
+      <DependentUpon>BuscaTipoIngresos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaIngresos.resx">
+      <DependentUpon>BuscaIngresos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaFacturasProveedor.resx">
+      <DependentUpon>BuscaFacturasProveedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarVale.resx">
+      <DependentUpon>AgregarVale.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarDescuentoAFacturaProveedor.resx">
+      <DependentUpon>AgregarDescuentoAFacturaProveedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaVales.resx">
+      <DependentUpon>BuscaVales.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarMensaje.resx">
+      <DependentUpon>AgregarMensaje.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarRevision.resx">
+      <DependentUpon>AgregarRevision.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaRevisiones.resx">
+      <DependentUpon>BuscaRevisiones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaFecha.resx">
+      <DependentUpon>BuscaFecha.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaRevisionesFacturasProveedor.resx">
+      <DependentUpon>BuscaRevisionesFacturasProveedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaCotizacionesInsumos.resx">
+      <DependentUpon>BuscaCotizacionesInsumos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaNominas.resx">
+      <DependentUpon>BuscaNominas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarFacturaCombustible.resx">
+      <DependentUpon>AgregarFacturaCombustible.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaFacturasCombustible.resx">
+      <DependentUpon>BuscaFacturasCombustible.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaEnDirectorio.resx">
+      <DependentUpon>BuscaEnDirectorio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaEnDirectorioPreguntaNuevo.resx">
+      <DependentUpon>BuscaEnDirectorioPreguntaNuevo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaArchivosAbiertosRecientemente.resx">
+      <DependentUpon>BuscaArchivosAbiertosRecientemente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarModelo.resx">
+      <DependentUpon>AgregarModelo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarGastoPorCaseta.resx">
+      <DependentUpon>AgregarGastoPorCaseta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaGastosPorCasetas.resx">
+      <DependentUpon>BuscaGastosPorCasetas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarPoliza.resx">
+      <DependentUpon>AgregarPoliza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaPolizas.resx">
+      <DependentUpon>BuscaPolizas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes.resx">
+      <DependentUpon>Reportes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreguntaRescate.resx">
+      <DependentUpon>PreguntaRescate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaldoEnCuentas.resx">
+      <DependentUpon>SaldoEnCuentas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MissionControl.resx">
+      <DependentUpon>MissionControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventarioDeActivos.resx">
+      <DependentUpon>InventarioDeActivos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loader.resx">
+      <DependentUpon>Loader.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opciones.resx">
+      <DependentUpon>Opciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensajes.resx">
+      <DependentUpon>Mensajes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicenciaValida.resx">
+      <DependentUpon>LicenciaValida.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SobreOversight.resx">
+      <DependentUpon>SobreOversight.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaProyectos.resx">
+      <DependentUpon>BuscaProyectos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaInsumos.resx">
+      <DependentUpon>BuscaInsumos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaPersonas.resx">
+      <DependentUpon>BuscaPersonas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaDirecciones.resx">
+      <DependentUpon>BuscaDirecciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarInsumoPreguntaReplicarUpdate.resx">
+      <DependentUpon>AgregarInsumoPreguntaReplicarUpdate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaInsumosPreguntaTipoNuevoInsumo.resx">
+      <DependentUpon>BuscaInsumosPreguntaTipoNuevoInsumo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarProyectoCambiaIndirectosYUtilidad.resx">
+      <DependentUpon>AgregarProyectoCambiaIndirectosYUtilidad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaTarjetas.resx">
+      <DependentUpon>BuscaTarjetas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarBase.resx">
+      <DependentUpon>AgregarBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventarioDeInsumos.resx">
+      <DependentUpon>InventarioDeInsumos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaInsumosConPrecioDiferente.resx">
+      <DependentUpon>BuscaInsumosConPrecioDiferente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaUnidades.resx">
+      <DependentUpon>BuscaUnidades.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarProyectoPreguntaFechaTerminoPrevista.resx">
+      <DependentUpon>AgregarProyectoPreguntaFechaTerminoPrevista.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarTarjeta.resx">
+      <DependentUpon>AgregarTarjeta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarInsumo.resx">
+      <DependentUpon>AgregarInsumo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarProyecto.resx">
+      <DependentUpon>AgregarProyecto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hammer12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hammer24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\powerpnt12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\powerpnt24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\word12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\word24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explosion12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explosion24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="Resources\cancel12x12.png" />
+    <None Include="Resources\cancel24x24.png" />
+    <None Include="Resources\clients12x12.png" />
+    <None Include="Resources\clients24x24.png" />
+    <None Include="Resources\package12x12.png" />
+    <None Include="Resources\package24x24.png" />
+    <None Include="Resources\presupuestos12x12.png" />
+    <None Include="Resources\presupuestos24x24.png" />
+    <None Include="Resources\previous12x12.png" />
+    <None Include="Resources\previous24x24.png" />
+    <None Include="Resources\attachments12x13.png" />
+    <None Include="Resources\attachments24x27.png" />
+    <None Include="Resources\docs12x14.png" />
+    <None Include="Resources\docs24x27.png" />
+    <None Include="Resources\down12x12.png" />
+    <None Include="Resources\down24x24.png" />
+    <None Include="Resources\folders12x14.png" />
+    <None Include="Resources\folders24x27.png" />
+    <None Include="Resources\tasks12x13.png" />
+    <None Include="Resources\tasks24x27.png" />
+    <None Include="Resources\up12x12.png" />
+    <None Include="Resources\up24x24.png" />
+    <None Include="Resources\gas12x11.png" />
+    <None Include="Resources\gas24x22.png" />
+    <None Include="Resources\idea8x12.png" />
+    <None Include="Resources\idea15x24.png" />
+    <None Include="Resources\note12x12.png" />
+    <None Include="Resources\note24x24.png" />
+    <None Include="Resources\phone12x12.png" />
+    <None Include="Resources\phone24x24.png" />
+    <None Include="Resources\pin12x12.png" />
+    <None Include="Resources\pin24x24.png" />
+    <None Include="Resources\quotation12x12.png" />
+    <None Include="Resources\quotation24x24.png" />
+    <None Include="Resources\bricks12x12.png" />
+    <None Include="Resources\bricks24x24.png" />
+    <None Include="Resources\thundera128x128.png" />
+    <None Include="Resources\addressbook12x12.png" />
+    <None Include="Resources\addressbook24x24.png" />
+    <None Include="Resources\check12x12.png" />
+    <None Include="Resources\check24x24.png" />
+    <None Include="Resources\delete12x121.png" />
+    <None Include="Resources\delete24x241.png" />
+    <None Include="Resources\duplicate12x12.png" />
+    <None Include="Resources\duplicate24x24.png" />
+    <None Include="Resources\expenses12x12.png" />
+    <None Include="Resources\expenses24x24.png" />
+    <None Include="Resources\explosion12x121.png" />
+    <None Include="Resources\explosion32x32.png" />
+    <None Include="Resources\heart12x12.png" />
+    <None Include="Resources\heart24x24.png" />
+    <None Include="Resources\helmet12x12.png" />
+    <None Include="Resources\helmet24x24.png" />
+    <None Include="Resources\home12x12.png" />
+    <None Include="Resources\home24x24.png" />
+    <None Include="Resources\insertcard12x12.png" />
+    <None Include="Resources\insertcard24x24.png" />
+    <None Include="Resources\inventory_2_12x12.png" />
+    <None Include="Resources\inventory_2_24x24.png" />
+    <None Include="Resources\inventory12x121.png" />
+    <None Include="Resources\inventory24x241.png" />
+    <None Include="Resources\key_2_12x12.png" />
+    <None Include="Resources\key_2_24x24.png" />
+    <None Include="Resources\key12x12.png" />
+    <None Include="Resources\key24x24.png" />
+    <None Include="Resources\material12x12.png" />
+    <None Include="Resources\material24x24.png" />
+    <None Include="Resources\message12x12.png" />
+    <None Include="Resources\message24x24.png" />
+    <None Include="Resources\new12x12.png" />
+    <None Include="Resources\new24x24.png" />
+    <None Include="Resources\newcard12x12.png" />
+    <None Include="Resources\newcard24x24.png" />
+    <None Include="Resources\percent12x12.png" />
+    <None Include="Resources\percent24x24.png" />
+    <None Include="Resources\police12x12.png" />
+    <None Include="Resources\police24x24.png" />
+    <None Include="Resources\project_2_12x12.png" />
+    <None Include="Resources\project_2_24x24.png" />
+    <None Include="Resources\project12x12.png" />
+    <None Include="Resources\project24x24.png" />
+    <None Include="Resources\quotation12x121.png" />
+    <None Include="Resources\quotation24x241.png" />
+    <None Include="Resources\report12x12.png" />
+    <None Include="Resources\report24x24.png" />
+    <None Include="Resources\reset12x12.png" />
+    <None Include="Resources\reset24x24.png" />
+    <None Include="Resources\save&amp;close17x12.png" />
+    <None Include="Resources\save&amp;close33x24.png" />
+    <None Include="Resources\scheduler12x12.png" />
+    <None Include="Resources\scheduler24x24.png" />
+    <None Include="Resources\speed12x12.png" />
+    <None Include="Resources\speed24x24.png" />
+    <None Include="Resources\tag12x12.png" />
+    <None Include="Resources\tag24x24.png" />
+    <None Include="Resources\unit12x12.png" />
+    <None Include="Resources\unit24x24.png" />
+    <None Include="Resources\worker12x12.png" />
+    <None Include="Resources\worker24x24.png" />
+    <None Include="Resources\yes_2_12x12.png" />
+    <None Include="Resources\yes_2_24x24.png" />
+    <None Include="Resources\yes12x12.png" />
+    <None Include="Resources\yes24x24.png" />
+    <None Include="Resources\save12x121.png" />
+    <None Include="Resources\save24x241.png" />
+    <None Include="Resources\save12x122.png" />
+    <None Include="Resources\save24x242.png" />
+    <None Include="Resources\empresa12x12.png" />
+    <None Include="Resources\empresa24x24.png" />
+    <None Include="Resources\percent12x121.png" />
+    <None Include="Resources\percent24x241.png" />
+    <None Include="Resources\scaleRuler12x12.png" />
+    <None Include="Resources\scaleRuler24x24.png" />
+    <None Include="Resources\paperclip12x12.png" />
+    <None Include="Resources\paperclip24x24.png" />
+    <None Include="Resources\search12x12.png" />
+    <None Include="Resources\search24x24.png" />
+    <None Include="Resources\asset12x12.png" />
+    <None Include="Resources\asset24x24.png" />
+    <None Include="Resources\assetFinance12x11.png" />
+    <None Include="Resources\assetFinance24x21.png" />
+    <None Include="Resources\assetLending12x11.png" />
+    <None Include="Resources\assetLending24x21.png" />
+    <None Include="Resources\assetmgt12x12.png" />
+    <None Include="Resources\assetmgt24x24.png" />
+    <None Include="Resources\boxShot12x12.png" />
+    <None Include="Resources\boxShot24x24.png" />
+    <None Include="Resources\businessInsurance12x12.png" />
+    <None Include="Resources\businessInsurance24x24.png" />
+    <None Include="Resources\config12x12.png" />
+    <None Include="Resources\config24x24.png" />
+    <None Include="Resources\configb12x12.png" />
+    <None Include="Resources\configb24x24.png" />
+    <None Include="Resources\files12x12.png" />
+    <None Include="Resources\files24x24.png" />
+    <None Include="Resources\gem12x12.png" />
+    <None Include="Resources\gem24x24.png" />
+    <None Include="Resources\govermentSchemes12x12.png" />
+    <None Include="Resources\govermentSchemes24x24.png" />
+    <None Include="Resources\invoiceFinance12x12.png" />
+    <None Include="Resources\invoiceFinance24x24.png" />
+    <None Include="Resources\licence12x12.png" />
+    <None Include="Resources\licence24x24.png" />
+    <None Include="Resources\payrollSolutions12x12.png" />
+    <None Include="Resources\payrollSolutions24x24.png" />
+    <None Include="Resources\propertyFinance12x12.png" />
+    <None Include="Resources\propertyFinance24x24.png" />
+    <None Include="Resources\stockFinance12x12.png" />
+    <None Include="Resources\stockFinance24x24.png" />
+    <None Include="Resources\truck12x12.png" />
+    <None Include="Resources\truck24x24.png" />
+    <None Include="Resources\truckb12x12.png" />
+    <None Include="Resources\truckb24x24.png" />
+    <None Include="Resources\user12x12.png" />
+    <None Include="Resources\user24x24.png" />
+    <None Include="Resources\copyright12x12.png" />
+    <None Include="Resources\copyright24x24.png" />
+    <None Include="Resources\relationships12x12.png" />
+    <None Include="Resources\relationships24x24.png" />
+    <None Include="Resources\account12x12.png" />
+    <None Include="Resources\account24x24.png" />
+    <None Include="Resources\bank12x12.png" />
+    <None Include="Resources\bank24x24.png" />
+    <None Include="Resources\creditcard12x12.png" />
+    <None Include="Resources\creditcard24x24.png" />
+    <None Include="Resources\payment12x12.png" />
+    <None Include="Resources\payment24x24.png" />
+    <None Include="Resources\income12x12.png" />
+    <None Include="Resources\income24x24.png" />
+    <None Include="logoIcons\Vista\winmine16x16.ico" />
+    <None Include="logoIcons\Vista\winmine32x32.ico" />
+    <None Include="logoIcons\Vista\winmine48x48.ico" />
+    <None Include="logoIcons\XP\winmine16x16.ico" />
+    <None Include="logoIcons\XP\winmine32x32.ico" />
+    <None Include="logoIcons\XP\winmine48x48.ico" />
+    <Content Include="thundera.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
